@@ -161,7 +161,7 @@ declare module "native-base" {
 			/**
              * Defines button style
              */
-			style?: ReactNative.ViewStyle;
+			style?: ReactNative.ViewStyle[] | ReactNative.ViewStyle;
 			/**
              * Defines button text style
              */
